@@ -1,0 +1,35 @@
+   var customerComponentDef = new ActionComponentDef('customerShowAction', Types.ACTIONS.TEST_ACTION, 'icon', 'Pokaż kontrahenta');
+         customerComponentDef.addOutputSocketDef(new SocketDef('ID_BEAN', 'Long'));
+
+         var customerPersonComponentDef = new ActionComponentDef('customerPersonShowAction', Types.ACTIONS.TEST_ACTION,
+             'icon', 'Pokaż osobe kontaktowa');
+         customerPersonComponentDef.addInputSocketDef(new SocketDef('ID_CUSTOMER', 'Long'));
+
+         var viewComponentDef = new ViewComponentDef('CustomerView', Types.VIEWS.TEST_TABLE, 'icon', 'Kontrahenci');
+         viewComponentDef.addOutputSocketDef(new SocketDef('ID_BEAN', 'Long'));
+
+         var map = new Map();
+         map.set(customerComponentDef.id, customerComponentDef);
+         map.set(customerPersonComponentDef.id, customerPersonComponentDef);
+         map.set(viewComponentDef.id, viewComponentDef);
+
+         var actionToAcion = new ConnectionDef(customerComponentDef.id, 'ID_BEAN', customerPersonComponentDef.id, 'ID_CUSTOMER');
+         var viewToAcion = new ConnectionDef(viewComponentDef.id, 'ID_BEAN', customerPersonComponentDef.id, 'ID_CUSTOMER');
+
+         var components = ComponentsFactory.createComponents(map, [actionToAcion, viewToAcion]);
+
+         var customerAction = components.getComponent(customerComponentDef.id);
+         var customerPersonAction = components.getComponent(customerPersonComponentDef.id);
+         var view = components.getComponent(viewComponentDef.id);
+
+         customerAction.renderTo(grid11);
+         customerPersonAction.renderTo(grid12);
+         view.renderTo(grid21);
+
+
+
+  var optionDef = PortalDefinitionRegistry.getPlatformOptionById(UNIT_OPTION_ID);
+        optionDef.then(function (el) {
+            var option = CompositionFactory.createOption(el);
+            option.renderTo($("#main-container"));
+        });

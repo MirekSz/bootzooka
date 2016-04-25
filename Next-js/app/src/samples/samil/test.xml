@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root version="1">
+    <Container dataset-binding="operator">
+        <Row>
+            <Component id="firstName"/>
+            <Component id="lastName"/>
+        </Row>
+        <Component id="panelSeparator1" class="separator"/>
+        <Row>
+            <Component id="login"/>
+            <Spring/>
+            <Component id="loginByExternalSystem"/>
+        </Row>
+        <Row>
+            <Component id="loginByRfid"/>
+        </Row>
+        <Row>
+            <Component id="rfidCardNr" template="password" occupyx="1"/>
+            <Spring expandx="1"/>
+        </Row>
+        <Component id="changePassword"/>
+        <Row>
+            <Component id="password" template="password"/>
+            <Spring/>
+        </Row>
+        <Row>
+            <Component id="retypePassword" template="password"/>
+            <Spring/>
+        </Row>
+        <Component id="passwordChangeRequired"/>
+        <Row>
+            <Component id="idPasswordRule" occupyx="2"/>
+            <Spring expandx="1"/>
+        </Row>
+        <Component id="panelSeparator2" class="separator"/>
+        <Row>
+            <Component id="idOperatorGroup"/>
+            <Component id="idOperatorProfile"/>
+        </Row>
+        <Component id="panelSeparator5" class="separator"/>
+        <Component id="allowMultipleLogin"/>
+        <Component id="active"/>
+    </Container>
+</Root>

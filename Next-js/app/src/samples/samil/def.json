@@ -1,0 +1,1750 @@
+{
+  "responseObject": {
+    "@class": "pl.com.stream.next.asen.common.datasetdef.DataSetDefImpl",
+    "fieldDefMap": {
+      "loginByRfid": {
+        "name": "loginByRfid",
+        "type": "BOOLEAN",
+        "domainName": "Boolean",
+        "label": "Logowanie kartą RFID",
+        "length": 0,
+        "calculateAfterChange": true,
+        "computeFlagsAfterChange": true,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": "0"
+      },
+      "idContact": {
+        "name": "idContact",
+        "type": "LONG",
+        "domainName": "Id",
+        "label": "Kontakt",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      },
+      "loginByExternalSystem": {
+        "name": "loginByExternalSystem",
+        "type": "BOOLEAN",
+        "domainName": "Boolean",
+        "label": "Logowanie przez system zewnętrzny",
+        "length": 0,
+        "calculateAfterChange": true,
+        "computeFlagsAfterChange": true,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": "0"
+      },
+      "idWorktimePattern": {
+        "name": "idWorktimePattern",
+        "type": "LONG",
+        "domainName": "Id",
+        "label": "Wzorzec pracy",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      },
+      "hasPrivateProfile": {
+        "name": "hasPrivateProfile",
+        "type": "BOOLEAN",
+        "domainName": "Boolean",
+        "label": "Posiada prywatny profil",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": "1"
+      },
+      "password": {
+        "name": "password",
+        "type": "STRING",
+        "label": "password",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "enabledSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": ""
+      },
+      "version": {
+        "name": "version",
+        "type": "INTEGER",
+        "label": "",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "editableSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      },
+      "rfidCardNr": {
+        "name": "rfidCardNr",
+        "type": "STRING",
+        "domainName": "ShortName",
+        "label": "Numer karty RFID",
+        "length": 100,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "enabledSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": ""
+      },
+      "retypePassword": {
+        "name": "retypePassword",
+        "type": "STRING",
+        "label": "Potwierdź hasło",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "enabledSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": ""
+      },
+      "idCopySource": {
+        "name": "idCopySource",
+        "type": "LONG",
+        "label": "idCopySource",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": ""
+      },
+      "idAttachementSubject": {
+        "name": "idAttachementSubject",
+        "type": "LONG",
+        "domainName": "Id",
+        "label": "Podmiot załączników",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      },
+      "login": {
+        "name": "login",
+        "type": "STRING",
+        "domainName": "OperatorLogin2",
+        "label": "Login",
+        "length": 100,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      },
+      "firstName": {
+        "name": "firstName",
+        "type": "STRING",
+        "domainName": "FirstName",
+        "label": "Imię",
+        "length": 30,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      },
+      "note": {
+        "name": "note",
+        "type": "MEMO",
+        "domainName": "Note",
+        "label": "Uwagi",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      },
+      "fullRuntimeProfile": {
+        "name": "fullRuntimeProfile",
+        "type": "BOOLEAN",
+        "domainName": "Boolean",
+        "label": "Pełny profil uruchomieniowy",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": true,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": "1"
+      },
+      "idOperatorProfile": {
+        "name": "idOperatorProfile",
+        "type": "LONG",
+        "domainName": "Id",
+        "label": "Profil",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": "1"
+      },
+      "lastName": {
+        "name": "lastName",
+        "type": "STRING",
+        "domainName": "LastName",
+        "label": "Nazwisko",
+        "length": 60,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      },
+      "idPasswordRule": {
+        "name": "idPasswordRule",
+        "type": "LONG",
+        "domainName": "Id",
+        "label": "Reguła hasła",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      },
+      "allowMultipleLogin": {
+        "name": "allowMultipleLogin",
+        "type": "BOOLEAN",
+        "domainName": "Active",
+        "label": "Logowanie z wielu stanowisk",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": "1"
+      },
+      "idLicenseLoginPack": {
+        "name": "idLicenseLoginPack",
+        "type": "LONG",
+        "domainName": "Id",
+        "label": "Pakiet licencji",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": ""
+      },
+      "idOperatorAssistant": {
+        "name": "idOperatorAssistant",
+        "type": "LONG",
+        "domainName": "Id",
+        "label": "Operator zastępujący",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      },
+      "idStrategy": {
+        "name": "idStrategy",
+        "type": "LONG",
+        "domainName": "Id",
+        "label": "Strategia powiadamiania",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      },
+      "idOperator": {
+        "name": "idOperator",
+        "type": "LONG",
+        "label": "ID_OPERATOR",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        }
+      },
+      "active": {
+        "name": "active",
+        "type": "BOOLEAN",
+        "domainName": "RowIsActive",
+        "label": "Aktywny",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": "1"
+      },
+      "passwordChangeRequired": {
+        "name": "passwordChangeRequired",
+        "type": "BOOLEAN",
+        "domainName": "Boolean",
+        "label": "Wymagana zmiana hasła",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": "0"
+      },
+      "changePassword": {
+        "name": "changePassword",
+        "type": "BOOLEAN",
+        "label": "Zmień hasło",
+        "length": 0,
+        "calculateAfterChange": true,
+        "computeFlagsAfterChange": true,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "defAtributeValueSourceType": "DYNAMIC_VALUE",
+          "name": "DYNAMIC"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": ""
+      },
+      "idOperatorGroup": {
+        "name": "idOperatorGroup",
+        "type": "LONG",
+        "domainName": "Id",
+        "label": "Grupa domyślna",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": ""
+      },
+      "idNotificationsStrategy": {
+        "name": "idNotificationsStrategy",
+        "type": "LONG",
+        "domainName": "Id",
+        "label": "Strategia powiadamiania",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      }
+    },
+    "fieldNamesToDescription": [
+      "firstName",
+      "lastName"
+    ],
+    "name": "operator",
+    "descriptionFormat": "",
+    "idField": {
+      "name": "idOperator",
+      "type": "LONG",
+      "label": "ID_OPERATOR",
+      "length": 0,
+      "calculateAfterChange": false,
+      "computeFlagsAfterChange": false,
+      "validateAfterFieldChange": false,
+      "editGroupEnabled": false,
+      "visibleSource": {
+        "value": true,
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "TRUE"
+      },
+      "focusTraversalEnabledSource": {
+        "value": true,
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "TRUE"
+      },
+      "requiredSource": {
+        "value": false,
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "FALSE"
+      },
+      "enabledSource": {
+        "value": true,
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "TRUE"
+      },
+      "editableSource": {
+        "value": false,
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "FALSE"
+      },
+      "uniqueSource": {
+        "value": false,
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "FALSE"
+      },
+      "labelSource": {
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "FROM_DEF"
+      },
+      "precisionSource": {
+        "defAtributeValueSourceType": "CONST_VALUE"
+      },
+      "maxValueSource": {
+        "defAtributeValueSourceType": "CONST_VALUE"
+      },
+      "minValueSource": {
+        "defAtributeValueSourceType": "CONST_VALUE"
+      },
+      "charactersKindSource": {
+        "value": "NONE",
+        "defAtributeValueSourceType": "CONST_VALUE"
+      }
+    },
+    "supportedBeforeEditComplete": false,
+    "supportedAfterEditComplete": false,
+    "version": 1453107265972
+  },
+  "idInfosForClient": [],
+  "reportResult": {
+    "lines": []
+  }
+}

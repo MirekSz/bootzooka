@@ -1,0 +1,15 @@
+<div class="from-backend-content">
+    <h4>Dostępne {{typeToShow}}:</h4>
+
+    <div class="from-backend-content-filter">
+        <input id="filter-backend-content">
+    </div>
+
+    <select class="from-backend-content-list" style="width: 100%; min-height: 350px; margin-bottom: 10px;" size="12">
+
+        {{#each nodes}}
+            <option value="{{name}}" id="{{id}}">{{name}}</option>
+        {{/each}}
+
+    </select>
+</div>

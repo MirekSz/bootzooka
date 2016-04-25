@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <Container dataset-binding="addressType">
+        <Row>
+            <Component id="firstName" fill="horizontal"/>
+            <Component id="lastName" fill="vertical"/>
+        </Row>
+        <Component id="idOperatorGroup" occupyy="2"/>
+        <Component id="birthDate"/>
+        <Component id="separatorTest" class="separator"/>
+        <Component id="salary" occupyx="2" occupyy="2"/>
+        <Component id="active"/>
+    </Container>
+</Root>  

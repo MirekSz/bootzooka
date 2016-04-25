@@ -1,0 +1,32 @@
+<div class="{{#unless attrs.visible}}hide-element{{/unless}}">
+    {{#unless self.noLabel}}
+        {{#if field.label}}
+            <label class="col-form-sm-{{gui.labelSize}} {{#if self.noField}}{{gui.align}}{{/if}} samil-element-label control-label element-content {{#if gui.isTopTemplate}}samil-element-label-centered{{/if}}"
+                   columnNumber="{{gui.labelColumnNumber}}">
+                <div class="label-text">{{field.label}}</div>
+            </label>
+        {{else}}
+            <label class="col-form-sm-{{gui.labelSize}} samil-element-label control-label element-content {{#if gui.isTopTemplate}}samil-element-label-centered{{/if}}"
+                   columnNumber="{{gui.labelColumnNumber}}">
+                <div class="label-text">{{self.id}}</div>
+            </label>
+        {{/if}}
+    {{/unless}}
+
+    {{#unless self.noField}}
+        <div class="col-form-sm-{{gui.inputSize}} {{gui.fill}} {{gui.align}} samil-element-field samil-dictionary-element {{#if gui.expand}}no-expand{{else}}expand{{/if}} no-padding-right {{#if gui.inRow}}no-padding-right{{/if}} element-content"
+             columnNumber="{{gui.fieldColumnNumber}}">
+            {{#if gui.insideSize}}
+            <div class="col-form-sm-{{gui.insideSize}}">
+            {{/if}}
+            <select id="select" class="{{#if attrs.required}}required-value{{/if}}"></select>
+            {{#if gui.insideSize}}
+            </div>
+            {{/if}}
+        </div>
+    {{/unless}}
+
+    {{#if gui.blankspace}}
+        <div class="col-form-sm-{{gui.blankspace}} blankspace-element"></div>
+    {{/if}}
+</div>

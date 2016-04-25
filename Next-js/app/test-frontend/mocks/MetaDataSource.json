@@ -1,0 +1,47 @@
+{
+  "addressType": {
+    "firstName": {
+      "name": "Imie",
+      "type": "text",
+      "required": "true"
+    },
+    "lastName": {
+      "name": "Nazwisko",
+      "type": "text",
+      "required": "true"
+    },
+    "idOperatorGroup": {
+      "name": "Grupa",
+      "type": "dictionary",
+      "required": "true",
+      "binding": "idOperatorGroup"
+    },
+    "birthDate": {
+      "name": "Data urodzenia",
+      "type": "date",
+      "required": "false"
+    },
+    "salary": {
+      "name": "Zarobki",
+      "type": "numeric",
+      "numericType": "float",
+      "precision": "2",
+      "required": "false"
+    },
+    "active": {
+      "name": "Aktywny",
+      "type": "boolean",
+      "required": "false"
+    },
+    "separatorTest": {
+      "name": "Dodatkowe informacje"
+    }
+  },
+  "addressType2": {
+    "firstName2": {
+      "name": "Imie2",
+      "type": "text2",
+      "required": "false"
+    }
+  }
+}

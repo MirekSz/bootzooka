@@ -1,0 +1,38 @@
+{
+  "firstName": {
+    "label": "Imie",
+    "type": "text",
+    "required": "true"
+  },
+  "lastName": {
+    "label": "Nazwisko",
+    "type": "text",
+    "required": "true"
+  },
+  "idOperatorGroup": {
+    "label": "Grupa",
+    "type": "dictionary",
+    "required": "true",
+    "binding": "idOperatorGroup"
+  },
+  "birthDate": {
+    "label": "Data urodzenia",
+    "type": "date",
+    "required": "false"
+  },
+  "salary": {
+    "label": "Zarobki",
+    "type": "numeric",
+    "numericType": "float",
+    "precision": "2",
+    "required": "false"
+  },
+  "active": {
+    "label": "Aktywny",
+    "type": "boolean",
+    "required": "false"
+  },
+  "separatorTest": {
+    "label": "Dodatkowe informacje"
+  }
+}

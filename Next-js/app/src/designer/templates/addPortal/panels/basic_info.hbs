@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-lg-12 basic-info-container">
+
+        <div class="panel-content-header">
+
+            <div class="stats-icon pull-left animation-slow">
+                <i class="fa fa-{{icon}} fa-user panel-avatar"></i>
+            </div>
+
+            <div class="stats-title" portalId="{{id}}">
+                 <h4>{{title}}</h4>
+            </div>
+
+            <button class="btn btn-info editIcon"><i class="fa fa-pencil-square-o"></i> Zmień ikone</button>
+
+        </div>
+
+        <legend class="section"></legend>
+
+        <div class="panel-content-body">
+            <fieldset>
+                <form class="panel-data">
+
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">Nazwa</label>
+                        <div class="col-sm-4">
+                            <input type="text" id="new-portal-name" class="form-control designer-panel-created" value="{{name}}">
+                        </div>
+
+                        <label class="col-sm-1 control-label">Status</label>
+                        <div class="col-sm-4">
+                            <input type="text" id="new-portal-status" class="form-control designer-panel-created" value="Aktywny">
+                        </div>
+                    </div>
+
+                </form>
+            </fieldset>
+        </div>
+
+    </div>
+</div>

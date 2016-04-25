@@ -1,0 +1,113 @@
+<body>
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar navbar-fixed-top" role="navigation">
+
+            <!-- Portal selector -->
+            <ul id="portal-selector" class="nav navbar-nav side-nav left-side-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" role="button">Wybierz portal <span class="caret"></span></a>
+                    <ul id="portal-dropdown-menu" class="dropdown-menu animated flipInX not-visible hidden">
+                        <li class="dropdown-header">Wybierz portal:</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Search area -->
+            <div class="search-area hidden">
+                <i id="toggle-search-btn" class="fa fa-search"></i>
+                <div class="search-bar animation-slower">
+                    <input class="search-input" placeholder="">
+                </div>
+            </div>
+
+            <!-- Right navbar area -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li class="active">
+                        <a id="test401"><i class="fa fa-envelope-o"></i></a>
+                    </li>
+                    <li>
+                        <a><i class="fa fa-th"></i></a>
+                    </li>
+                    <li>
+                        <a><i class="fa fa-newspaper-o"></i></a>
+                    </li>
+                    <li class="right-corner-container">
+                        <div class="user-section">
+                            <span class="user">{{user.nameToShow}}</span><br>
+                            <span class="company">{{user.company}}</span>
+                            <div class="dropdown-user-section animate beforeAnimation">
+                                <div class="menu-element" id="btn-logout">
+                                    <i class="fa fa-lock"></i>
+                                    <a href="#" class="btn-logout">Wyloguj</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user-photo-section animation-slower">
+                            <span class="photo"></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+
+            <!-- Options Tabs -->
+            <div id="windows-nav-bar" class="animation-normal">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                    </ul>
+            </div>
+
+        </nav>
+        <!-- #Navigation -->
+
+        <!-- Main Page -->
+        <div class="main-page-container">
+
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div id="sidebar-wrapper" class="noselect">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand animation always-visible no-hover-color">
+                        <span class="logo-button">
+                            <a id="menu-toggle"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+                        </span>
+                        <a href="#" class="logo-container animation-slower">
+                            <!--<i class="fa fa-television"></i>-->
+                            <div class="logo">VERTO</div>
+                        </a>
+                    </li>
+                    <li class="budget-window always-visible animation-slower no-hover-color">
+                        <div class="big-symbol-container hvr-grow-rotate">
+                            <i class="fa fa-rocket"></i>
+                        </div>
+                        <div id="sparkline1" class="small-chart m-t-sm animation-slower beforeAnimation"><canvas width="105" height="30" style="display: inline-block; width: 119px; height: 30px; vertical-align: top;"></canvas></div>
+                        <div class="text-below">
+                            <h4 class="font-extra-bold m-b-xs">
+                                $260 104,200
+                            </h4>
+                            <p class="text-muted">Your income from the last year in sales product X.</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul id="sidebar-elements-list" class="sidebar-nav sidebar-elements">
+
+                </ul>
+            </div>
+            <!-- /#sidebar-wrapper -->
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <div class="container-fluid"></div>
+            </div>
+
+            <!-- /#page-content-wrapper -->
+        </div>
+
+    </div>
+
+    <div id="login-page-wrapper" class="animate hidden"></div>
+
+</body>

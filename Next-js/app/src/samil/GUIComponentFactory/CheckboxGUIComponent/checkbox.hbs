@@ -1,0 +1,32 @@
+<div class="{{#unless attrs.visible}}hide-element{{/unless}}">
+    {{#unless self.noLabel}}
+        <div class="col-form-sm-{{gui.labelSize}} samil-element-label checkbox-label-space"
+             columnNumber="{{gui.labelColumnNumber}}">
+            <label class="control-label element-content" for="{{self.locationId}}_{{self.id}}">
+                <!-- k-checkbox-label -->
+                <div class="label-text">
+                    {{#if field.label}}
+                        {{field.label}}
+                    {{else}}
+                        {{self.id}}
+                    {{/if}}
+                </div>
+            </label>
+        </div>
+    {{/unless}}
+    {{#unless self.noField}}
+    <div class="col-form-sm-{{#if gui.inRow}}{{gui.inputSize}}{{else}}4{{/if}} samil-element-field checkbox-element"
+         columnNumber="{{gui.fieldColumnNumber}}">
+        <div style="width: 15px;">
+            <input type="checkbox"
+                   id="{{self.locationId}}_{{self.id}}"
+                   class="pull-right" {{#if self.value}}checked{{/if}} {{#if attrs.required}}required{{/if}} {{#unless attrs.editable}}disabled{{/unless}}
+            >
+        </div>
+    {{/unless}}
+</div>
+
+    {{#if gui.blankspace}}
+        <div class="col-form-sm-{{gui.blankspace}} blankspace-element"></div>
+    {{/if}}
+</div>

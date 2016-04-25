@@ -1,0 +1,119 @@
+<div class="node-details-table" id="node-details-container">
+
+<form class="form-horizontal" role="form">
+
+    {{#if id}}
+        <!--Form Group-->
+        <div class="form-group">
+
+            <div class="input-group input-group-margin-left-right-10">
+
+                <span class="input-group-addon input-group-addon-min-width-150" id="id-label">Nazwa komponentu</span>
+                <input class="form-control input-field-id" id="id-input"
+                       aria-describedby="id-label"
+                       value="{{componentName}}"
+                       readonly>
+            </div>
+        </div>
+    {{/if}}
+
+        <!--Form Group-->
+        <div class="form-group">
+
+            <div class="input-group input-group-margin-left-right-10 hidden">
+
+                <span class="input-group-addon input-group-addon-min-width-150" id="name-label">Nazwa połączenia</span>
+                <input class="form-control input-field-name" id="connection-name-input"
+                       aria-describedby="name-label"
+                       value="{{name}}"
+                       readonly>
+            </div>
+        </div>
+
+        <!--Form Group-->
+        <div class="form-group">
+
+            <div class="input-group input-group-margin-left-right-10 hidden">
+
+                <span class="input-group-addon input-group-addon-min-width-150" id="name-label">Nazwa techniczna socketu</span>
+                <input class="form-control input-field-name" id="name-input"
+                       aria-describedby="name-label"
+                       value=""
+                       readonly>
+            </div>
+        </div>
+
+        <!--Form Group-->
+        <!--<div class="form-group">-->
+
+            <!--<div class="input-group input-group-margin-left-right-10">-->
+
+                <!--<span class="input-group-addon input-group-addon-min-width-150" id="description-label">Opis</span>-->
+                <!--<input class="form-control input-field-description" id="description-input"-->
+                       <!--aria-describedby="description-label"-->
+                       <!--value="{{description}}">-->
+            <!--</div>-->
+        <!--</div>-->
+
+    {{#if x}}
+        <!--Form Group-->
+            <div class="form-group">
+
+                <div class="input-group input-group-margin-left-right-10">
+
+                    <span class="input-group-addon input-group-addon-min-width-150" id="position-label">Pozycja [X,Y]: </span>
+                    <input class="form-control input-field-position" id="position-input"
+                           aria-describedby="position-label"
+                           value="{{x}}, {{y}}"
+                           readonly>
+                </div>
+            </div>
+    {{/if}}
+
+    <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 available-output-sockets">
+                    <h4>Dostępne gniazda wyjściowe:</h4>
+                    <select class="output-socket-list" style="min-height: 300px; width: 258px;" size="12">
+                        {{#each outputSocketDefList}}
+                            <option value="{{name}}" class="{{#if required}}isRequired{{/if}}" id="{{type}}">{{name}}</option>
+                        {{/each}}
+                    </select>
+                </div>
+                <div class="col-md-6 available-input-sockets">
+                    <h4>Dostępne gniazda wejściowe:</h4>
+                    <select class="input-socket-list" style="min-height: 300px; width: 258px;" size="12">
+                        {{#each inputSocketDefList}}
+                            <option value="{{name}}" class="{{#if required}}isRequired{{/if}}" id="{{type}}">{{name}}</option>
+                        {{/each}}
+                    </select>
+                </div>
+            </div>
+        </div>
+
+    {{#unless id}}
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 created-connections-list-wrapper">
+                    <div class="add-connection-btn-container">
+                        <button id="add-connection-btn" class="btn btn-primary disabled">Dodaj połączenie <span class="glyphicon glyphicon-arrow-down"></span></button>
+                        <button id="remove-connection-btn" class="btn btn-danger disabled">Usuń połączenie <span class="glyphicon glyphicon-remove"></span></button>
+                    </div>
+
+                    <h4>Stworzone połączenia:</h4>
+                    <select class="created-connections-list" style="min-height: 50px; width: 100%;" size="4">
+                        {{#each connections}}
+                            <option id="option-{{name}}">{{name}}</option>
+                        {{/each}}
+                    </select>
+                </div>
+            </div>
+        </div>
+    {{/unless}}
+
+    {{#if removeButton}}
+        <button id="remove-node" class="btn btn-danger">Usuń</button>
+    {{/if}}
+
+</form>
+</div>

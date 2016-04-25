@@ -1,0 +1,78 @@
+<div class="row">
+    <div class="col-lg-9 panel-right-content">
+
+        <div class="panel-right-content-header">
+
+            <!-- Icon -->
+            <div class="stats-icon pull-left animation-slow">
+                <i class="fa fa-{{icon}} panel-avatar"></i>
+            </div>
+
+            <!-- Title -->
+            <div class="stats-title" id="panel-title" portalId="{{id}}">
+                 <h4>{{title}}</h4>
+            </div>
+
+        </div>
+        <div class="panel-right-content-body">
+
+            <fieldset>
+                <form class="panel-data">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Utworzony</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control designer-panel-created " value="{{created}}" disabled>
+                        </div>
+                     </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Zmodyfikowany</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control designer-panel-modified" value="{{modified}}" disabled>
+                        </div>
+                     </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Operator</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control designer-panel-operator" value="{{operator}}" disabled>
+                        </div>
+                     </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Status</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control designer-panel-active" value="{{active}}" disabled>
+                        </div>
+                     </div>
+                </form>
+            </fieldset>
+
+        </div>
+
+    </div>
+    <div class="col-lg-3 panel-left-menu">
+
+        <ul class="left-menu nav up-menu">
+            <li class="left-menu-element">
+                <button class="btn btn-primary editButton"><i class="fa fa-pencil-square-o"></i> Popraw</button>
+            </li>
+        </ul>
+        <ul class="left-menu nav down-menu">
+            <li class="left-menu-element bottom-container-align">
+                <button class="btn btn-success exportButton disabled" disabled><i class="fa fa-reply-all"></i> Eksportuj</button>
+            </li>
+            <li class="left-menu-element bottom-container-align">
+                <button class="btn btn-danger deleteButton"><i class="fa fa-times"></i> Usuń</button>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+
+
+
+
+
+

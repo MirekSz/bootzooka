@@ -1,0 +1,32 @@
+<ul>
+    {{#requiredColumns}}
+        <li>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" disabled name="{{idFix}}" checked value="checked">
+                    <span style="color:red">  {{label}}({{id}})</span>
+                </label>
+            </div>
+        </li>
+    {{/requiredColumns}}
+    {{#selectedColumns}}
+        <li>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="{{idFix}}" checked value="checked">
+                    {{label}}({{id}})
+                </label>
+            </div>
+        </li>
+    {{/selectedColumns}}
+    {{#allColumns}}
+        <li>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="{{idFix}}" value="checked">
+                    {{label}}({{id}})
+                </label>
+            </div>
+        </li>
+    {{/allColumns}}
+</ul>

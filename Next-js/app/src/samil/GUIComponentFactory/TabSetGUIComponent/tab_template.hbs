@@ -1,0 +1,7 @@
+{{#each components}}
+    <div id="{{type}}_{{@index}}" class="col-form-sm-{{../gui.mainSize}}"></div>
+{{/each}}
+
+{{#each children}}
+    <div id="{{../locationId}}_{{type}}_{{@index}}" class="col-form-sm-{{gui.mainSize}} form-panel tab-pane fade {{#if active}}in active{{/if}}"></div>
+{{/each}}

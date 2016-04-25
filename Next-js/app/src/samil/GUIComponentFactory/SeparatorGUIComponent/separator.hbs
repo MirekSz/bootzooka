@@ -1,0 +1,17 @@
+<div class="samil-element">
+    {{#if label}}
+        <label class="col-form-sm-2 separator-label">{{field.label}}</label>
+    {{else}}
+        {{#if name}}
+            <label class="col-form-sm-2 separator-label">{{self.id}}Label</label>
+        {{/if}}
+    {{/if}}
+
+    <div class="col-form-sm-{{#if field.label}}80{{else}}100{{/if}} {{gui.fill}} {{gui.align}} {{#unless gui.expand}}no-expand{{/unless}}">
+        <div class="separator"></div>
+    </div>
+
+    {{#if gui.blankspace}}
+        <div class="col-form-sm-{{gui.blankspace}} blankspace-element"></div>
+    {{/if}}
+</div>

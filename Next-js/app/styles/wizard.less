@@ -1,0 +1,113 @@
+.wizard {
+  background: #ffffff;
+  .nav-tabs {
+    position: relative;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    border-bottom-color: #e0e0e0;
+    li {
+      padding-bottom: 10px;
+    }
+    > li.active {
+      > a, > a:hover, > a:focus {
+        color: #555555;
+        cursor: default;
+        border: 0;
+        border-bottom-color: transparent;
+      }
+    }
+    > li {
+      width: 25%;
+      a {
+        width: 70px;
+        height: 70px;
+        margin: 0px auto;
+        border-radius: 100%;
+        padding: 0;
+      }
+      a:hover {
+        background: transparent;
+      }
+    }
+  }
+  > div.wizard-inner {
+    position: relative;
+  }
+  .form .tab-pane ul {
+    position: absolute;
+    right: 0;
+    top: 26px;
+  }
+  li.active span.round-tab {
+    background: #ffffff;
+    border: 2px solid #62cb31;
+    i {
+      color: #62cb31;
+    }
+  }
+  li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #62cb31;
+    transition: 0.1s ease-in-out;
+  }
+  li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #62cb31;
+  }
+  .tab-pane {
+    position: relative;
+    padding-top: 50px;
+    padding: 15px;
+    padding-bottom: 0;
+  }
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.connecting-line {
+  height: 2px;
+  background: #e0e0e0;
+  position: absolute;
+  width: 80%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 50%;
+  z-index: 1;
+}
+
+span.round-tab {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  display: inline-block;
+  border-radius: 100px;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  font-size: 25px;
+  i {
+    color: #555555;
+  }
+}
+
+span.round-tab:hover {
+  color: #333333;
+  border: 2px solid #333333;
+}

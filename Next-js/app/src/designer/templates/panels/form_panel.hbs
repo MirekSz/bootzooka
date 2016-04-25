@@ -1,0 +1,147 @@
+<div class="form-example">
+    <div class="form-header-container">
+        <header>
+            <h3> Dane użytkownika</h3>
+        </header>
+
+        <!-- image and information -->
+        <div class="row form-info-header">
+            <div class="col-sm-8">
+                <h4>
+                    <small>Stwórz albo edytuj użytkownika</small>
+                </h4>
+            </div>
+            <div class="col-sm-4 image-container">
+                <div class="text-align-right">
+                    <img class="img-circle hvr-bounce-in" src="http://api.cartsearch.net/assets/img/avatars/user.png"
+                         alt="64x64">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- tab navigator -->
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#user-data">Dane osobowe</a></li>
+        <li><a data-toggle="tab" href="#company-data">Dane firmy</a></li>
+        <li><a data-toggle="tab" href="#other-data">Pozostałe</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="user-data" class="tab-pane fade in active">
+
+            <!-- persona info filedset -->
+            <fieldset>
+                <legend class="section"><i class="fa fa-user"></i> Dane osobowe</legend>
+                <form method="get" class="form-horizontal ng-pristine ng-valid">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Normal</label>
+
+                        <div class="col-sm-10"><input type="text" class="form-control"></div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Help text</label>
+
+                        <div class="col-sm-10"><input type="text" class="form-control"> <span
+                                class="help-block m-b-none">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Password</label>
+
+                        <div class="col-sm-10"><input type="password" class="form-control" name="password"></div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Place</label>
+
+                        <div class="col-sm-10"><input type="text" placeholder="placeholder" class="form-control"></div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <button class="btn btn-default">Cancel</button>
+                            <button class="btn btn-success"><i class="fa fa-check"></i> Save changes
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+
+
+        </div>
+
+        <div id="company-data" class="tab-pane fade">
+
+            <!-- company fieldset -->
+            <fieldset>
+                <legend class="section"><i class="fa fa-users"></i> Dane firmy</legend>
+                <form method="get" class="form-horizontal ng-pristine ng-valid">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Something</label>
+                        <div class="col-sm-2">
+                            <input id="exp" class="form-control date-picker" type="text" name="exp" value="">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Mother's name</label>
+
+                        <div class="col-sm-10"><input type="text" class="form-control"></div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Car info </label>
+
+                        <div class="col-sm-10"><input type="password" class="form-control" name="password"></div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <button class="btn btn-default"><i class="fa fa-times"></i> Cancel</button>
+                            <button class="btn btn-success"><i class="fa fa-check"></i> Save changes
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+
+        </div>
+
+        <div id="other-data" class="tab-pane fade">
+
+            <!-- other data fieldset -->
+            <fieldset>
+                <legend class="section"><i class="fa fa-unlock"></i> Inne dane</legend>
+                <form method="get" class="form-horizontal ng-pristine ng-valid">
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Mother's name</label>
+
+                        <div class="col-sm-10"><input type="text" class="form-control"></div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Car info </label>
+
+                        <div class="col-sm-10"><input type="password" class="form-control" name="password"></div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+                    <div class="form-group">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <button class="btn btn-default"><i class="fa fa-times"></i> Cancel</button>
+                            <button class="btn btn-success"><i class="fa fa-check"></i> Save changes
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+
+        </div>
+
+    </div>
+
+</div>

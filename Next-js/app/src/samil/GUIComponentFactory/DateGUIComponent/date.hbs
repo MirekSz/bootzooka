@@ -1,0 +1,28 @@
+<div class="{{#unless attrs.visible}}hide-element{{/unless}}">
+    <!--<div class="samil-element form-group">-->
+    {{#unless self.noLabel}}
+        {{#if field.label}}
+            <label class="col-form-sm-{{gui.labelSize}} {{#if self.noField}}{{gui.align}}{{/if}} samil-element-label control-label element-content {{#if gui.isTopTemplate}}samil-element-label-centered{{/if}}"
+                   columnNumber="{{gui.labelColumnNumber}}">
+                <div class="label-text">{{field.label}}</div>
+            </label>
+        {{else}}
+            <label class="col-form-sm-{{gui.labelSize}} samil-element-label control-label element-content {{#if gui.isTopTemplate}}samil-element-label-centered{{/if}}"
+                   columnNumber="{{gui.labelColumnNumber}}">
+                <div class="label-text">{{self.id}}</div>
+            </label>
+        {{/if}}
+    {{/unless}}
+
+    {{#unless self.noField}}
+        <div class="col-form-sm-{{gui.inputSize}} {{gui.fill}} {{gui.align}} {{#if gui.expand}}no-expand{{else}}expand{{/if}} samil-element-field no-padding-right">
+            <input type="text" name="{{self.id}}"
+                   class="form-control date-picker {{#if attrs.required}}required-value{{/if}}" {{#if field.required}}required{{/if}}  {{#unless attrs.editable}}disabled{{/unless}}>
+        </div>
+    {{/unless}}
+
+    {{#if gui.blankspace}}
+        <div class="col-form-sm-{{gui.blankspace}} blankspace-element"></div>
+    {{/if}}
+    <!--</div>-->
+</div>

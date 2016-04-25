@@ -1,0 +1,313 @@
+{
+  "responseObject": {
+    "@class": "pl.com.stream.next.asen.common.datasetdef.DataSetDefImpl",
+    "fieldDefMap": {
+      "name": {
+        "name": "name",
+        "type": "STRING",
+        "domainName": "OperatorGroupName",
+        "label": "Nazwa",
+        "length": 100,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      },
+      "active": {
+        "name": "active",
+        "type": "BOOLEAN",
+        "domainName": "RowIsActive",
+        "label": "Aktywna",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": [],
+        "defaultValue": "1"
+      },
+      "idOperatorGroup": {
+        "name": "idOperatorGroup",
+        "type": "LONG",
+        "label": "ID_OPERATOR_GROUP",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "editableSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        }
+      },
+      "version": {
+        "name": "version",
+        "type": "INTEGER",
+        "label": "",
+        "length": 0,
+        "calculateAfterChange": false,
+        "computeFlagsAfterChange": false,
+        "validateAfterFieldChange": false,
+        "editGroupEnabled": false,
+        "visibleSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "focusTraversalEnabledSource": {
+          "value": true,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "TRUE"
+        },
+        "requiredSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "enabledSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "editableSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "uniqueSource": {
+          "value": false,
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FALSE"
+        },
+        "labelSource": {
+          "defAtributeValueSourceType": "CONST_VALUE",
+          "name": "FROM_DEF"
+        },
+        "precisionSource": {
+          "value": 0,
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "maxValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "minValueSource": {
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "charactersKindSource": {
+          "value": "NONE",
+          "defAtributeValueSourceType": "CONST_VALUE"
+        },
+        "fieldsToAssign": []
+      }
+    },
+    "fieldNamesToDescription": [
+      "name"
+    ],
+    "name": "operatorGroup",
+    "descriptionFormat": "",
+    "idField": {
+      "name": "idOperatorGroup",
+      "type": "LONG",
+      "label": "ID_OPERATOR_GROUP",
+      "length": 0,
+      "calculateAfterChange": false,
+      "computeFlagsAfterChange": false,
+      "validateAfterFieldChange": false,
+      "editGroupEnabled": false,
+      "visibleSource": {
+        "value": true,
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "TRUE"
+      },
+      "focusTraversalEnabledSource": {
+        "value": true,
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "TRUE"
+      },
+      "requiredSource": {
+        "value": false,
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "FALSE"
+      },
+      "enabledSource": {
+        "value": true,
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "TRUE"
+      },
+      "editableSource": {
+        "value": false,
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "FALSE"
+      },
+      "uniqueSource": {
+        "value": false,
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "FALSE"
+      },
+      "labelSource": {
+        "defAtributeValueSourceType": "CONST_VALUE",
+        "name": "FROM_DEF"
+      },
+      "precisionSource": {
+        "defAtributeValueSourceType": "CONST_VALUE"
+      },
+      "maxValueSource": {
+        "defAtributeValueSourceType": "CONST_VALUE"
+      },
+      "minValueSource": {
+        "defAtributeValueSourceType": "CONST_VALUE"
+      },
+      "charactersKindSource": {
+        "value": "NONE",
+        "defAtributeValueSourceType": "CONST_VALUE"
+      }
+    },
+    "supportedBeforeEditComplete": false,
+    "supportedAfterEditComplete": false,
+    "version": 1453116592907
+  },
+  "idInfosForClient": [],
+  "reportResult": {
+    "lines": []
+  }
+}

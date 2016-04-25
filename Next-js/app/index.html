@@ -1,0 +1,151 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Next-js</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="../sources/bootstrap-3.3.4-dist/css/bootstrap-customized.css">
+    <link rel="stylesheet" href="../sources/bootstrap-customized/grid100.css">
+    <link rel="stylesheet" href="../sources/nprogress/nprogress.css">
+    <!--<link rel="stylesheet" href="../sources/bootstrap-customized/bootstrap.css">-->
+    <link rel="stylesheet" href="../sources/diagram-builder.css">
+
+    <link type="text/css" rel="stylesheet" href="../sources/jquery-loading-indicator/jquery.loading-indicator.css"/>
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+                function () {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+</script>
+
+
+<!-- endbuild -->
+
+<!-- build:js({app,.tmp}) scripts/App.js -->
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../sources/bootstrap-3.3.4-dist/js/bootstrap.js"></script>
+<script src="../sources/jquery-loading-indicator/jquery.loading-indicator.js"></script>
+
+<script src="static/common.js"></script>
+<script src="static/app.js"></script>
+
+<!--- add plugin for bootstrap modals ---->
+<!--<link rel="stylesheet" href="../sources/bootstrap-dialog/css/bootstrap-dialog.css">-->
+<script src="../sources/bootstrap-dialog/js/bootstrap-dialog.js"></script>
+
+
+<!------- Alertify --------->
+<!-- include the script -->
+<script src="../sources/alertifyjs/alertify.js"></script>
+
+<!-- include the style -->
+<link rel="stylesheet" href="../sources/alertifyjs/css/alertify.css"/>
+<!-- include a theme -->
+<link rel="stylesheet" href="../sources/alertifyjs/css/themes/semantic.css"/>
+
+<!-- set the properties -->
+<script src="../sources/alertifyjs/alertify.properties.js"></script>
+<!-------------------------->
+
+
+<!-- DIAGRAM BUILDER -->
+<script src="../sources/aui-min.js"></script>
+<script src="../sources/aui-diagram-builder/aui-diagram-builder/aui-diagram-builder.js"></script>
+<script src="../sources/aui-diagram-builder/aui-diagram-node/aui-diagram-node.js"></script>
+<script src="../sources/aui-diagram-builder/aui-diagram-builder-connector/aui-diagram-builder-connector.js"></script>
+<script src="../sources/aui-diagram-builder/aui-diagram-node-condition/aui-diagram-node-condition.js"></script>
+<script src="../sources/aui-diagram-builder/aui-diagram-node-join/aui-diagram-node-join.js"></script>
+<script src="../sources/aui-diagram-builder/aui-diagram-node-manager-base/aui-diagram-node-manager-base.js"></script>
+<script src="../sources/aui-diagram-builder/aui-diagram-node-task/aui-diagram-node-task.js"></script>
+<script type="text/javascript" src="../sources/datatables/DataTables-1.10.9/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="../sources/datatables/DataTables-1.10.9/js/dataTables.bootstrap.js"></script>
+<script type="text/javascript" src="../sources/datatables/Select-1.0.1/js/dataTables.select.js"></script>
+<link href="../sources/animation/animate.css" rel="stylesheet"/>
+
+<!-- xml to json converter -->
+<script src="../sources/jquery.xml2json.js"></script>
+
+<!-- SAMIL ELEMENTS -->
+<script src="../sources/codemirror/lib/codemirror.js"></script>
+<link rel="stylesheet" href="../sources/codemirror/lib/codemirror.css">
+<script src="../sources/codemirror/mode/xml/xml.js"></script>
+
+<!-- Splitter -->
+<link rel="stylesheet" href="../sources/jqxsplitter/styles/jqx.base.css" type="text/css">
+<script type="text/javascript" src="../sources/jqxsplitter/jqxcore.js"></script>
+<script type="text/javascript" src="../sources/jqxsplitter/jqxsplitter.js"></script>
+<script type="text/javascript" src="../sources/jqxsplitter/jqxpanel.js"></script>
+
+<!--<script src="../sources/ally-ui.js"></script>-->
+<!--<script src="../sources/aui-diagram-builder/aui-diagram-builder-impl.js"></script>-->
+<!-- endbuild -->
+
+<!-- ----------------------------------- Add html template code here ----------------------------------------------- -->
+<!-- Kendo UI combined JavaScript -->
+<script src="../sources/kendoui/js/kendo.all.min.js"></script>
+<script src="../sources/kendoui/js/cultures/kendo.culture.pl-PL.min.js"></script>
+
+<link href="../sources/datatables/DataTables-1.10.9/css/dataTables.bootstrap.css" rel="stylesheet"/>
+<link href="../sources/datatables/Select-1.0.1/css/select.bootstrap.css" rel="stylesheet"/>
+
+<!-- Common Kendo UI CSS for web and dataviz widgets -->
+<link href="../sources/kendoui/styles/kendo.common-bootstrap.min.css" rel="stylesheet"/>
+<!-- Default Kendo UI theme CSS for web and dataviz widgets -->
+<link href="../sources/kendoui/styles/kendo.bootstrap.min.css" rel="stylesheet"/>
+
+<!-------- DASHBOARD -------->
+<link href="../sources/starter/css/hover.css" rel="stylesheet">
+<link rel="stylesheet" href="../sources/font-awesome/css/font-awesome.min.css">
+
+<script src="../sources/spin.js"></script>
+<script src="../sources/bootstrap-datepicker-1.4.0-dist/js/bootstrap-datepicker.js"></script>
+<script src="../sources/starter/js/html5shiv.js"></script>
+<script src="../sources/starter/js/respond.min.js"></script>
+<script src="../sources/starter/js/jquery.sparkline.js"></script>
+<script src="../sources/nprogress/nprogress.js"></script>
+<script src="../app/src/lib/AnimationEvents.js"></script>
+
+<link rel="stylesheet" href="../sources/Icon-font-7-stroke-PIXEDEN/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+
+<!-- Optional - Adds useful class to manipulate icon font display -->
+<link rel="stylesheet" href="../sources/Icon-font-7-stroke-PIXEDEN/pe-icon-7-stroke/css/helper.css">
+<!-------------------------->
+
+<!------------------------- Main Page ------------------------>
+<div id="main-page-container">
+
+    <script>
+        $(document).ready(function () {
+            kendo.culture("pl-PL");
+        });
+    </script>
+
+    <div id="main-container"></div>
+
+    <div class="modal-storage"></div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<div class="row margin-top-panel-standard">
+    <div class="col-lg-12 permissions-container">
+        <div class="form-group">
+            <div class="buttons-sector animation-slower ">
+                <button class="btn btn-info addBtn {{#unless permissionEnabled}}disabled{{/unless}}" {{#unless permissionEnabled}}disabled{{/unless}}><i class="fa fa-plus"></i> Dodaj</button>
+
+                <legend class="section"></legend>
+
+                <div class="user-permissions-container">
+                    <div class="row main-content-container">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-content-body animation-slower beforeAnimation">
+                <fieldset>
+                        <form class="panel-data">
+
+                            <div class="form-group row">
+                                <label class="col-sm-3 control-label">Rodzaj uprawnienia</label>
+                                <div class="col-sm-9">
+                                    <div class="input-group">
+                                      <input id="select-kind-input" type="text" class="form-control" aria-label="...">
+                                      <div class="input-group-btn">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wybierz <span class="caret"></span></button>
+                                        <ul id="select-kind-dd" class="dropdown-menu dropdown-menu-right">
+                                          <li><a href="#" kind="select-operator">Operator</a></li>
+                                          <li><a href="#" kind="select-group">Grupa</a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group row operator-form-group hidden">
+                                <label class="col-sm-3 control-label">Operator</label>
+                                <div class="col-sm-9">
+                                    <div class="input-group">
+                                      <input id="select-operator-input" type="text" class="form-control" aria-label="...">
+                                      <div class="input-group-btn">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wybierz   <i class="fa fa-book"></i></button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group row group-form-group hidden">
+                                <label class="col-sm-3 control-label">Grupa</label>
+                                <div class="col-sm-9">
+                                    <div class="input-group">
+                                      <input id="select-group-input" type="text" class="form-control" aria-label="...">
+                                      <div class="input-group-btn">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wybierz  <i class="fa fa-book"></i></button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row buttons">
+                                <button class="btn btn-success pull-right saveBtn"><i class="fa fa-reply-all"></i> Dodaj</button>
+                                <button class="btn btn-danger pull-right cancelBtn"><i class="fa fa-times"></i> Anuluj</button>
+                            </div>
+
+                        </form>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</div>

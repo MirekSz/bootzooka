@@ -1,0 +1,9 @@
+<div class="row">
+    {{#each panels}}
+        {{#if @last}}
+            <div id="grid-active-container" class="col-xs-6 active-panel animated-panel "></div>
+        {{else}}
+            <div id="grid{{@index}}-container" class="col-xs-6 animated-panel "></div>
+        {{/if}}
+    {{/each}}
+</div>

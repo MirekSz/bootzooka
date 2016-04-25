@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <Container dataset-binding="operator">
+        <Row>
+            <Component id="firstName" class="field" template="memo" occupyy="4"/>
+            <Component id="lastName" fill="horizontal"/>
+            <Component id="lastName" fill="horizontal"/>
+        </Row>
+        <Component id="idOperatorGroup" fill="horizontal"/>
+        <Component id="birthDate" align="left"/>
+        <Component id="salary" fill="both" occupyx="5"/>
+        <Component id="active" align="center"/>
+    </Container>
+</Root>
+
+        <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root version="1">
+<Container dataset-binding="operator">
+    <Row>
+        <Component id="firstName" occupyx="2"/>
+        <Spring expandx="1"/>
+    </Row>
+    <Row>
+        <Component id="firstName" occupyx="2"/>
+        <Spring expandx="1"/>
+    </Row>
+    <Row>
+        <Component id="firstName" occupyx="2"/>
+        <Spring expandx="1"/>
+    </Row>
+    <Row>
+        <Component id="firstName" occupyx="2">
+            <Property name="strategyType" binding="flag.operator.idStrategyType"/>
+        </Component>
+        <Spring expandx="1"/>
+    </Row>
+</Container>
+</Root>
+
+
+        <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root version="1">
+<TabSet>
+    <Tab id="test_id">
+        <Container dataset-binding="operator">
+            <Row>
+                <Component id="firstName"/>
+                <Component id="lastName"/>
+            </Row>
+            <Component id="panelSeparator1" class="separator"/>
+            <Row>
+                <Component id="login"/>
+                <Component id="loginByExternalSystem"/>
+            </Row>
+            <Row>
+                <Component id="loginByRfid"/>
+            </Row>
+            <Row>
+                <Component id="rfidCardNr" template="password" occupyx="1"/>
+                <Spring expandx="1"/>
+            </Row>
+            <Component id="changePassword"/>
+            <Row>
+                <Component id="password" template="password"/>
+                <Spring/>
+            </Row>
+            <Row>
+                <Component id="retypePassword" template="password"/>
+                <Spring/>
+            </Row>
+            <Component id="passwordChangeRequired"/>
+            <Row>
+                <Component id="idPasswordRule" occupyx="2"/>
+                <Spring expandx="1"/>
+            </Row>
+            <Component id="panelSeparator2" class="separator"/>
+            <Row>
+                <Component id="idOperatorGroup"/>
+                <Component id="idOperatorProfile"/>
+            </Row>
+            <Component id="panelSeparator5" class="separator"/>
+            <Component id="allowMultipleLogin"/>
+            <Component id="active"/>
+        </Container>
+    </Tab>
+    <Tab id="test_id2">
+        <SplitSet>
+            <Split>
+                <Component id="asdasd" fill="horizontal"/>
+            </Split>
+            <Split>
+                <Component id="asdasd2" fill="horizontal"/>
+            </Split>
+        </SplitSet>
+    </Tab>
+</TabSet>
+</Root>
+
+        <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root version="1">
+<Container dataset-binding="operator">
+    <Container>
+        <Row>
+            <Container>
+                <Row>
+                    <Component id="custNumber" class="field"/>
+                    <Component id="tin" class="label"/>
+                    <Component id="countryCode" class="field" chars="2"/>
+                    <Component id="tin" class="field"/>
+                    <Component id="tinSuffix"/>
+                </Row>
+            </Container>
+        </Row>
+    </Container>
+</Container>
+</Root>

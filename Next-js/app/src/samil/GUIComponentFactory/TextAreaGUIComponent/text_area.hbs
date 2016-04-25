@@ -1,0 +1,32 @@
+<div class="element-content text-area-container {{#unless attrs.visible}}hide-element{{/unless}}">
+    {{#unless self.noLabel}}
+        {{#if field.label}}
+            <label class="col-form-sm-{{gui.labelSize}} samil-element-label control-label element-content {{#if gui.isTopTemplate}}samil-element-label-centered{{/if}}"
+                   columnNumber="{{gui.labelColumnNumber}}">
+                <div class="label-text">{{field.label}}</div>
+            </label>
+        {{else}}
+            <label class="col-form-sm-{{gui.labelSize}} samil-element-label control-label element-content {{#if gui.isTopTemplate}}samil-element-label-centered{{/if}}"
+                   columnNumber="{{gui.labelColumnNumber}}">
+                <div class="label-text">{{self.id}}</div>
+            </label>
+        {{/if}}
+    {{/unless}}
+
+    {{#unless self.noFiled}}
+        <div class="col-form-sm-{{gui.inputSize}} {{gui.fill}} {{gui.align}} {{#if gui.expand}}no-expand{{else}}expand{{/if}} {{#if gui.inRow}}no-padding-right{{/if}} no-padding-right text-area-input-container">
+            {{#if gui.insideSize}}
+            <div class="col-form-sm-{{gui.insideSize}}">
+            {{/if}}
+            <textarea class="k-textbox {{#if attrs.required}}required-value{{/if}}" id="{{self.locationId}}_{{self.id}}"
+                      rows="{{#if gui.occupyy}} {{gui.occupyy}} {{else}} {{gui.preferedRowsNumber}} {{/if}}" {{#if attrs.required}}required{{/if}} {{#unless attrs.editable}}disabled{{/unless}}></textarea>
+            {{#if gui.insideSize}}
+            </div>
+            {{/if}}
+        </div>
+    {{/unless}}
+
+    {{#if gui.blankspace}}
+        <div class="element-blankspace col-form-sm-{{gui.blankspace}}"></div>
+    {{/if}}
+</div>

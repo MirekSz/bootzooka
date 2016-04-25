@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <style>
+        #fixture {
+            position: absolute;
+            top: -9999;
+            left: -9999;
+        }
+
+        #mocha-stats .progress {
+            height: 40px;
+        }
+    </style>
+    <link rel="stylesheet" href="../../sources/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <link rel='stylesheet' href='../../node_modules/mocha/mocha.css'/>
+    <link rel='stylesheet' href='../../sources/nprogress/nprogress.css'/>
+    <script src='../../node_modules/jquery/dist/jquery.min.js'></script>
+    <script src="../../sources/bootstrap-3.3.4-dist/js/bootstrap.js"></script>
+    <script src="../../sources/bootstrap-datepicker-1.4.0-dist/js/bootstrap-datepicker.js"></script>
+
+    <!-- Polyfill (required by Babel) -->
+    <!--<script src='../../node_modules/babel-core/browser-polyfill.js'></script>-->
+
+    <!-- Testing libraries -->
+    <script src="../../sources/aui-min.js"></script>
+    <script src='../../node_modules/mocha/mocha.js'></script>
+    <script src='../../node_modules/chai/chai.js'></script>
+    <script src='../../node_modules/chai-as-promised/lib/chai-as-promised.js'></script>
+    <script src='../../node_modules/sinon/pkg/sinon.js'></script>
+    <script src='../../node_modules/sinon-chai/lib/sinon-chai.js'></script>
+    <script src="../../sources/bootstrap-dialog/js/bootstrap-dialog.js"></script>
+
+
+    <!-- xml to json converter -->
+    <script src="../../sources/jquery.xml2json.js"></script>
+    <script src="../../sources/nprogress/nprogress.js"></script>
+
+    <script> mocha.setup('bdd');</script>
+</head>
+<body>
+<div id='mocha'></div>
+<br/>
+
+
+</body>
+<script>
+    setInterval(function () {
+        if ($(".fail").length > 0) {
+            $(document.body).css("background-color", "#FFD4D4");
+        } else {
+            $(document.body).css("background-color", "white");
+        }
+    }, 3000);
+
+
+</script>
+<script src="/static/common.js"></script>
+<script src="/static/tests.js"></script>
+<script>
+    window.expect = chai.expect;
+    window.sinon = sinon;
+    window.onload = function () {
+        mocha.run()
+    };
+</script>
+</html>

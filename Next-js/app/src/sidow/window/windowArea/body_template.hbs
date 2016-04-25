@@ -1,0 +1,19 @@
+<!-- tab navigator -->
+<ul class="nav nav-tabs">
+    {{#components}}
+        <li {{#if isVisible}}class="active"{{/if}}>
+            <a data-toggle="tab" href="#{{../id}}_{{id}}_{{@index}}">
+                <i class="fa fa-{{#if icon}}{{icon}}{{else}}user{{/if}}"></i> {{name}}
+            </a>
+        </li>
+    {{/components}}
+</ul>
+
+<div class="tab-content">
+    {{#components}}
+        <div id="{{../id}}_{{id}}_{{@index}}" class="tab-pane fade in {{#if isVisible}}active{{/if}} form-panel">
+            <!--  -->
+        </div>
+
+    {{/components}}
+</div>

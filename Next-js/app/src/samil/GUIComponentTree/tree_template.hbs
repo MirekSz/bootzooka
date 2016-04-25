@@ -1,0 +1,11 @@
+{{#each components}}
+    <div id="{{type}}_{{@index}}" class="col-form-sm-100"></div>
+{{/each}}
+
+{{#each children}}
+    <div id="{{../locationId}}_{{type}}_{{@index}}" class="{{#if isRow}}col-form-sm-100{{/if}} {{#if ../guiModel.noPaddingLeft}}noPaddingLeft{{/if}} form-panel {{#unless guiModel.inRow}}element-container{{/unless}}"></div>
+{{/each}}
+
+{{#if isBlankSpace}}
+    <div class="blankspace-div col-form-sm-{{guiModel.blankSpaceSize}}"></div>
+{{/if}}

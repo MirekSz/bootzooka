@@ -1,0 +1,3 @@
+{{#each children}}
+    <div id="{{../locationId}}_{{type}}_{{@index}}" class="col-form-sm-{{#if guiModel.mainSize}}{{guiModel.mainSize}}{{else}}{{../guiModel.mainSize}}{{/if}} {{#if ../guiModel.noPaddingLeft}}noPaddingLeft{{/if}} form-panel "></div>
+{{/each}}

@@ -1,0 +1,9 @@
+<div class="element-content {{#unless attrs.visible}}hide-element{{/unless}}">
+    <label class="col-form-sm-1 control-label">{{#if field.label}} {{field.label}} {{else}} {{self.id}}
+        Label {{/if}}</label>
+    <div class="form-group col-form-sm-4 {{gui.fill}} {{gui.align}} {{#if gui.expand}}no-expand{{else}}expand{{/if}}" style="padding-left: 28px;padding-right: 15px;">
+        <div class="btn-group col-form-sm-100" style="padding-left: 0; padding-right:0">
+            <select id="select"></select>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+<div class="option-container animation-slower">
+    <div id="{{id}}">
+        <div>
+            <div class="col-md-12 row" style="margin-bottom: -20px; margin-top: 20px;">
+                <div class="well well-sm">
+                    <div class="btn-group "> <!-- dropdown -->
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-star"></span>
+                            Wykonaj <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu actions-menu animated-fast flipInX" aria-labelledby="dropdownMenu1">
+                            {{#actions}}
+                                <li id="{{../id}}_{{id}}_{{@index}}">
+                                    {{../id}}_{{id}}_{{@index}}
+                                </li>
+                            {{/actions}}
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-send"></span>
+                        Filtry
+                        <span class="caret"/>
+                    </button>
+                    <button type="button" class="btn btn-default"><span
+                            class="glyphicon glyphicon-align-left"></span> Sortowanie
+                    </button>
+                    <button type="button" class="btn btn-default"><span
+                            class="glyphicon glyphicon-signal"></span> Analizy
+                    </button>
+                    <button type="button" class="btn btn-default"><span
+                            class="glyphicon glyphicon-print"></span> Wydruki
+                    </button>
+                    <button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-cog"></span>
+                        Ustawienia
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                {{#views}}
+                    <div class="col-xs-12">
+                        <div id="{{../id}}_{{id}}_{{@index}}">
+                            {{../id}}_{{id}}_{{@index}}
+                        </div>
+                    </div>
+                {{/views}}
+            </div>
+        </div>
+    </div>
+    <style>
+    </style>
+</div>
+

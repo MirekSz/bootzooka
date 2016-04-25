@@ -1,0 +1,32 @@
+<div class="col-lg-4 col-md-6 col-xs-12 option-panel animated-panel permission-container">
+    <div class="panel panel-default panel-automatic animation-slower noselect">
+        <div class="content-elements-container2 {{#if isGroup}}group-container-body{{/if}} {{#if isOperator}}operator-container-body{{/if}}">
+
+            <div class="stats-icon pull-left animation-slow">
+                <i class="fa fa- fa-user panel-avatar"></i>
+            </div>
+
+            <div class="stats-title" permissionId="{{idPermission}}">
+                <h4>{{operator.name}} {{operationGroup.name}}</h4>
+            </div>
+
+            <div class="permission-type">{{#if isOperator}}Operator{{/if}} {{#if isGroup}}Grupa{{/if}}</div>
+
+            <div class="content-elements">
+                <form class="panel-data permission-panel-buttons">
+
+                    <div class="row button-remove-container">
+                        <button class="btn btn-danger removeBtn"><i class="fa fa-times"></i> Usuń</button>
+                    </div>
+
+                    <div class="row button-edit-container">
+                        <button class="btn btn-primary editBtn"><i class="fa fa-pencil-square-o"></i> Zarządzaj</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</div>

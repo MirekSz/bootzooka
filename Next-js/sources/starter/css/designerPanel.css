@@ -1,0 +1,80 @@
+.panel-right-content .panel-right-content-header {
+    height: 58px;
+}
+
+.panel-right-content .panel-right-content-header .stats-title {
+    padding-top: 3px;
+    margin-left: 62px;
+}
+
+.panel-right-content .panel-right-content-header .stats-icon .panel-avatar {
+    color: #62CB31;
+}
+
+.panel-right-content .panel-right-content-body {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.panel-right-content .panel-right-content-body fieldset {
+    padding-bottom: 0;
+    margin-left: -20px;
+}
+
+.panel-right-content .panel-right-content-body fieldset .panel-data {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.panel-right-content .panel-right-content-body fieldset .panel-data .form-group {
+    margin-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 22px;
+}
+
+.panel-right-content .panel-right-content-body fieldset .panel-data .form-group label {
+    margin-right: 26px;
+    padding-top: 6px;
+}
+
+.panel-left-menu button {
+    min-width: 92px;
+    margin-bottom: 3px;
+}
+
+.panel-left-menu ul.left-menu.nav.down-menu {
+    margin-top: 103px;
+}
+
+.active-panel .panel-center-content {
+    text-align: center;
+    height: 205px;
+}
+
+.active-panel .panel {
+    background-color: rgb(241, 243, 246);
+}
+
+.active-panel .panel .panel-body {
+    border: 1px dashed #bdbdbd;
+    border-radius: 2px;
+}
+
+.active-panel .panel .panel-body .stats-title {
+    padding-bottom: 15px;
+}
+
+.active-panel .panel .panel-body .stats-title h4 {
+    padding-top: 54px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(106, 108, 111, 0.43);
+    display: block;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.active-panel .panel .panel-body .add-import-buttons-container .btn {
+    min-width: 46%;
+}

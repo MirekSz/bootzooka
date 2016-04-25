@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Title Font";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2") format("woff2");
+    /*http://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2*/
+}
+
+#login-page-wrapper #login-container {
+    position: absolute;
+    z-index: 1;
+    width: 426px;
+}
+
+#login-page-wrapper .small {
+    font-size: 9px;
+}
+
+#login-page-wrapper .panel-heading {
+    display: none;
+}
+
+#login-page-wrapper .panel {
+    background-color: transparent;
+}
+
+#login-page-wrapper .panel-body {
+    border: none;
+}
+
+#login-page-wrapper .panel-body .error {
+    color: #A94442 !important;
+}
+
+#login-page-wrapper .bold {
+    font-weight: bold !important;
+}
+
+#login-page-wrapper .title-container h3 {
+    box-sizing: border-box;
+    color: rgb(106, 108, 111);
+    display: block;
+    font-family: 'Title Font', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    height: 26px;
+    line-height: 26.4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#login-page-wrapper .login-container {
+    max-width: 420px;
+    margin: auto;
+    padding-top: 6%;
+}
+
+#login-page-wrapper .login-container .hpanel {
+    border: 1px solid rgba(204, 204, 204, 0.48);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+#login-page-wrapper .login-container .hpanel .panel-body .group {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#login-page-wrapper .login-container .hpanel .checkbox {
+    padding-left: 9px;
+    padding-right: 15px;
+}
+
+#lock-emblem {
+    position: fixed;
+    bottom: -225px;
+    left: -15px;
+    font-size: 550px;
+    z-index: 0;
+    color: rgba(0, 0, 0, 0.04);
+}

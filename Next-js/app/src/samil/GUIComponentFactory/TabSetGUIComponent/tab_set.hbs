@@ -1,0 +1,37 @@
+<div class="panel-body">
+    <div class="form-example">
+        <div class="form-header-container">
+            <header>
+                <h3> Przykładowa nazwa TabSet'a {{field.label}}</h3>
+            </header>
+
+            <!-- image and information -->
+            <div class="row form-info-header">
+                <div class="col-form-sm-66">
+                    <h4>
+                        <small>Przykładowy opis TabSet'a {{field.description}}</small>
+                    </h4>
+                </div>
+                <div class="col-form-sm-33 image-container">
+                    <div class="text-align-right">
+                        <img class="img-circle hvr-bounce-in" src="http://api.cartsearch.net/assets/img/avatars/user.png" alt="64x64">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- tab navigator -->
+        <ul id="tab-nav-container" class="nav nav-tabs">
+            {{#each self.children}}
+                <li class="{{#if active}}active{{/if}}">
+                    <a data-toggle="tab" href="#{{../self.locationId}}_{{type}}_{{@index}}" aria-expanded="true">{{id}}</a>
+                </li>
+            {{/each}}
+        </ul>
+
+        <!-- tab -->
+        <div class="tab-content">
+        </div>
+
+    </div>
+</div>

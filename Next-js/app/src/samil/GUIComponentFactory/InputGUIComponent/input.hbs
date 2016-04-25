@@ -1,0 +1,34 @@
+<div class="{{#unless attrs.visible}}hide-element{{/unless}}">
+    {{#unless self.noLabel}}
+        {{#if field.label}}
+            <label class="col-form-sm-{{gui.labelSize}} {{#if self.noField}}{{gui.align}}{{/if}} samil-element-label control-label element-content {{#if gui.isTopTemplate}}samil-element-label-centered{{/if}}"
+                   columnNumber="{{gui.labelColumnNumber}}">
+                <div class="label-text">{{field.label}}</div>
+            </label>
+        {{else}}
+            <label class="col-form-sm-{{gui.labelSize}} samil-element-label control-label element-content {{#if gui.isTopTemplate}}samil-element-label-centered{{/if}}"
+                   columnNumber="{{gui.labelColumnNumber}}">
+                <div class="label-text"></div>
+            </label>
+        {{/if}}
+    {{/unless}}
+
+    {{#unless self.noField}}
+        <div class="col-form-sm-{{gui.inputSize}} samil-element-field input-field-component {{gui.fill}} {{gui.align}} {{#if gui.expand}}no-expand{{else}}expand{{/if}} no-padding-right {{#if gui.inRow}}no-padding-right{{/if}} element-content"
+             columnNumber="{{gui.fieldColumnNumber}}">
+            {{#if gui.insideSize}}
+            <div class="col-form-sm-{{gui.insideSize}}">
+            {{/if}}
+            <input type="text" name="{{self.id}}"
+                   class="form-control k-textbox {{#if attrs.required}}required-value{{/if}}" {{#if attrs.required}}required{{/if}} {{#unless attrs.editable}}disabled{{/unless}}
+                   value="{{self.value}}" maxlength="{{field.fieldData.length 1000}}"> <!-- whenFalse -->
+            {{#if gui.insideSize}}
+            </div>
+            {{/if}}
+        </div>
+    {{/unless}}
+
+    {{#if gui.blankspace}}
+        <div class="col-form-sm-{{gui.blankspace}} blankspace-element"></div>
+    {{/if}}
+</div>

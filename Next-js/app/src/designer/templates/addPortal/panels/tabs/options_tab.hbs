@@ -1,0 +1,105 @@
+<div class="toolbar pull-right">
+    <div class="panel-tools">
+      <a class="toggle-collapse-all"><span class="fa fa-bars"></span></a>
+    </div>
+</div>
+
+<div class="row margin-top-panel-standard">
+    {{#each options}}
+        <div id="option-container-{{id}}" class="col-lg-4 col-md-6 col-xs-12 option-panel animated-panel " optionId="{{id}}">
+            <div class="panel panel-default panel-automatic beforeAnimation animation-slower noselect">
+                <div class="panel-heading animate">
+                    <div class="title">{{name}}</div>
+                    <div class="panel-tools">
+                      <a class="showhide toolbar-element"><i class="fa fa-chevron-up"></i></a>
+                      <a class="closebox toolbar-element"><i class="fa fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="collapse-wrapper collapse in">
+                    <div class="panel-body">
+
+                        <div class="content-elements-container">
+                            <fieldset>
+                                <form class="panel-data">
+
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 control-label">Lp</label>
+                                        <div class="col-sm-3">
+                                            <input type="text" class="form-control option-input" value="{{elementIndex}}" disabled>
+                                        </div>
+
+                                        <label class="col-sm-2 control-label">Grupa</label>
+                                        <div class="col-sm-5">
+                                            <input type="text" class="form-control option-input" value="{{#if group}}{{group}}{{else}}brak{{/if}}" disabled>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 control-label">Rodzaj</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control option-input" value="użytkownika" disabled>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 control-label no-padding">Ilość widoków</label>
+                                        <div class="col-sm-3">
+                                            {{#if numberOfViews}}
+                                                <input type="text" class="form-control option-input" value="{{numberOfViews}}" disabled>
+                                            {{else}}
+                                                <input type="text" class="form-control option-input" value="{{viewsDefMap.size}}" disabled>
+                                            {{/if}}
+                                        </div>
+
+                                        <label class="col-sm-3 control-label no-padding">Ilość akcji</label>
+                                        <div class="col-sm-3">
+                                            {{#if numberOfActions}}
+                                                <input type="text" class="form-control option-input" value="{{numberOfActions}}" disabled>
+                                            {{else}}
+                                                <input type="text" class="form-control option-input" value="{{actionsDefMap.size}}" disabled>
+                                            {{/if}}
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <button class="btn btn-primary pull-left editBtn"><i class="fa fa-pencil-square-o"></i> Edytuj</button>
+                                        <button class="btn btn-danger pull-right removeBtn"><i class="fa fa-times"></i> Usuń</button>
+                                        <button class="btn btn-warning pull-right exportBtn disabled"><i class="fa fa-reply-all"></i> Exportuj</button>
+                                    </div>
+
+                                </form>
+                            </fieldset>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+    <div id="option-container-add-new" class="col-lg-4 col-md-6 col-xs-12 option-panel animated-panel ">
+        <div class="panel panel-default beforeAnimation animation-slower noselect">
+            <div class="collapse-wrapper collapse in">
+                <div class="panel-body">
+                    <div class="content-elements-container">
+                        <div class="row">
+                            <div class="col-lg-12 panel-center-content">
+                                <div class="stats-title">
+                                     <h4>Dodaj opcję...</h4>
+                                </div>
+
+                                <div class="add-import-buttons-container">
+                                    <button class="btn btn-success addBtn"><i class="fa fa-plus"></i> Dodaj</button>
+                                    <button class="btn btn-warning importBtn"><i class="fa fa-reply-all"></i> Importuj</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

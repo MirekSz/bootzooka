@@ -1,0 +1,54 @@
+{
+  "addressType": {
+    "firstName": {
+      "label": "Imie",
+      "required": "true"
+    },
+    "lastName": {
+      "label": "Nazwisko",
+      "required": "true"
+    },
+    "idOperatorGroup": {
+      "label": "Grupa",
+      "required": "true",
+      "binding": "idOperatorGroup",
+      "data": [
+        {
+          "text": "Black",
+          "value": "1"
+        },
+        {
+          "text": "Orange",
+          "value": "2"
+        },
+        {
+          "text": "Grey",
+          "value": "3"
+        }
+      ]
+    },
+    "birthDate": {
+      "label": "Data urodzenia",
+      "required": "false"
+    },
+    "salary": {
+      "label": "Zarobki",
+      "numericType": "float",
+      "precision": "2",
+      "required": "false"
+    },
+    "active": {
+      "label": "Aktywny",
+      "required": "false"
+    },
+    "separatorTest": {
+      "label": "Dodatkowe informacje"
+    }
+  },
+  "addressType2": {
+    "firstName2": {
+      "label": "Imie2",
+      "required": "false"
+    }
+  }
+}

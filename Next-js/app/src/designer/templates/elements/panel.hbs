@@ -1,0 +1,17 @@
+<div class="panel panel-default beforeAnimation animated-panel animation-slower noselect">
+    <div class="panel-heading">
+        {{#unless dontShowTools}}
+            <div class="panel-tools">
+                <a class="showhide toolbar-element"><i class="fa fa-chevron-up"></i></a>
+                <a class="closebox toolbar-element"><i class="fa fa-times"></i></a>
+            </div>
+        {{/unless}}
+        {{title}}
+    </div>
+    <div class="collapse-wrapper collapse in">
+        <div class="panel-body"></div>
+        {{#unless dontShowFooterContainer}}
+            <div class="panel-footer">{{footer}}</div>
+        {{/unless}}
+    </div>
+</div>

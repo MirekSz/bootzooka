@@ -1,0 +1,24 @@
+{{#if gui.isTitledContainer}}
+    <div class="title-container col-form-sm-{{#if gui.inputSize}}{{gui.inputSize}}{{else}}{{gui.containerSize}}{{/if}}">
+        <span class="title"> {{gui.containerTitle}} </span>
+{{/if}}
+
+    <div class="container-element
+                samil-element
+                tab-pane
+                fade in
+                active
+                {{#unless gui.isTitledContainer}}col-form-sm-{{#if gui.inputSize}}{{gui.inputSize}}{{else}}{{gui.containerSize}}{{/if}}{{/unless}}
+        {{gui.fill}}
+        {{gui.align}}
+        {{#unless gui.expand}}no-expand{{/unless}}
+        {{#if gui.inputSize}}internalContainer{{/if}}
+        "
+         {{#unless gui.isTitledContainer}}style="width: {{#if gui.inputSize}}{{gui.inputSize}}%{{/if}}"{{/unless}}
+         columnNumber="{{gui.fieldColumnNumber}}"
+    ></div>
+
+{{#if gui.isTitledContainer}}
+    </div>
+{{/if}}
+

@@ -1,0 +1,206 @@
+#basic-info-container {
+
+}
+
+#basic-info-container .panel-content-header {
+    height: 100px;
+    padding-top: 11px;
+}
+
+#basic-info-container .panel-content-header legend {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#basic-info-container .panel-content-header .stats-icon {
+    padding-left: 10px;
+}
+
+#basic-info-container .panel-content-header .stats-title {
+    margin-left: 60px;
+    padding-top: 4px;
+}
+
+#basic-info-container .panel-content-header .editIcon {
+    margin-top: 10px;
+}
+
+#basic-info-container .panel-content-body label {
+    padding-top: 7px;
+}
+
+#content-elements-container .content-elements-container {
+    padding-top: 10px;
+}
+
+.desktop-container {
+    margin-left: -16px;
+}
+
+.desktop-container .checkbox-sector {
+    margin-bottom: 12px;
+}
+
+#options-tab .toolbar.pull-right {
+    position: absolute;
+    right: 39px;
+    font-size: 30px;
+    top: 40px;
+}
+
+#options-tab .toolbar.pull-right:hover a {
+    color: #F1F3F6;
+}
+
+#options-tab .from-backend-content-list {
+    width: 100%;
+    max-height: 600px;
+}
+
+#options-tab .option-panel .panel {
+    background-color: rgba(228, 229, 231, 0.14);
+}
+
+#options-tab .option-panel .panel .panel-body {
+    border-left: 2px solid #62BAE0;
+}
+
+#options-tab .option-panel .panel-heading {
+    background-color: #FFFFFF !important;
+}
+
+#options-tab .option-panel .panel-heading .title {
+    width: 80%;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#options-tab .option-panel .panel-body {
+
+}
+
+#options-tab .option-panel .panel-body .content-elements-container .panel-data label {
+    padding-top: 10px;
+}
+
+#options-tab .option-panel .panel-body .content-elements-container .panel-data label.no-padding {
+    padding-top: 0;
+}
+
+#options-tab .option-panel .panel-body .content-elements-container .panel-data input {
+    padding: 6px 5px;
+}
+
+#options-tab .option-panel .panel-body .content-elements-container .panel-data .pull-right {
+    margin-left: 5px;
+}
+
+#options-tab #option-container-add-new .panel {
+    background-color: white;
+}
+
+#option-container-add-new {
+    padding-top: 32px;
+}
+
+#option-container-add-new .panel-center-content {
+    text-align: center;
+    height: 200px;
+}
+
+#option-container-add-new .panel {
+    background-color: white; /*rgb(241, 243, 246);*/
+}
+
+#option-container-add-new .panel .panel-body {
+    border: 1px dashed #bdbdbd;
+    border-radius: 2px;
+    border-left: 1px dashed #bdbdbd !important;
+}
+
+#option-container-add-new .panel .panel-body .stats-title {
+    padding-bottom: 15px;
+}
+
+#option-container-add-new .panel .panel-body .stats-title h4 {
+    padding-top: 54px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(106, 108, 111, 0.43);
+    display: block;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#option-container-add-new .panel .panel-body .add-import-buttons-container .btn {
+    min-width: 46%;
+}
+
+#option-container-add-new.collapsed-panel {
+    padding-top: 0;
+}
+
+#option-container-add-new.collapsed-panel .panel-center-content {
+    height: 25px;
+}
+
+#option-container-add-new.collapsed-panel .panel-center-content .stats-title {
+    display: none;
+}
+
+#options-tab .toggle-collapse-all {
+    cursor: pointer;
+}
+
+#permissions-tab .permissions-container {
+    padding-left: 0;
+}
+
+#permissions-tab .permissions-container .panel-data .input-group input {
+    height: 31px !important;
+}
+
+#permissions-tab .permissions-container .content-elements-container .panel-data .form-group {
+    width: 100%;
+}
+
+#permissions-tab .permissions-container .panel-data .form-group {
+    width: 83%;
+}
+
+#permissions-tab .permissions-container .panel-data .buttons {
+    padding-top: 15px;
+}
+
+#permissions-tab .permissions-container .panel-data .buttons button {
+    margin-left: 10px;
+}
+
+#permissions-tab .buttons-sector .btn {
+    margin-bottom: 15px;
+}
+
+#permissions-tab .stats-title {
+    margin-left: 43px;
+}
+
+#permissions-tab .content-elements-container2 {
+    height: 100px;
+    border-left: 2px solid #62CB31 !important;
+    padding: 5px;
+    padding-left: 15px;
+    border: 1px solid #DDDDDD;
+}
+
+#permissions-tab .content-elements-container .content-elements {
+    padding: 5px;
+    padding-left: 15px;
+}
+
+#permissions-tab .button-manage-container {
+    float: right;
+    padding-right: 3px;
+    padding-top: 17px;
+}

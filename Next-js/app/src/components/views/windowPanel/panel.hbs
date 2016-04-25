@@ -1,0 +1,23 @@
+<div class="panel panel-default beforeAnimation animated-panel form-panel animation-slower noselect">
+    {{#if isComposableWindow}}
+        <div class="panel-heading"> <!--  border-left -->
+        <div class="panel-collapsed-title" style="float: left;">
+            <div class="breadcrumb">
+
+            </div>
+        </div>
+            <div class="panel-tools hidden">
+                <a class="closebox toolbar-element"><i class="fa fa-times"></i></a>
+            </div>
+
+            {{title}}
+        </div>
+    {{/if}}
+    <div class="collapse-wrapper collapse in">
+        <div id="{{id}}_body" class="panel-body"></div>
+        {{#unless dontShowFooterContainer}}
+            <div class="panel-footer">{{footer}}</div>
+        {{/unless}}
+    </div>
+</div>
+
